@@ -8,17 +8,17 @@
 
 #### Input (example)
 
-`7 4`  <sub> number of rows & number of cols </sub>  
+`7 4`  <sub> number of all beads & number of red beads </sub>  
 `1 5`  
 `5 2`  
 `4 7`  
 `3 6`  
 `7 3`  
-`5 3`  
+`5 3`  <sub> list of ([number fo all beads] - 1) bead pairs connected by string (edges) </sub>
 
 #### Output (example)
 
-`3 5` <sub> number of squares of biggest possible shape </sub>
+`3 5` <sub> pair of edges connected by string that should be cut (ordered ascending) </sub>
 
 ## Solution
 
