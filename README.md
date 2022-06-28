@@ -25,7 +25,13 @@
 
 ## Solution
 
+In order to obtain time complexity of the programme as small as possible (which was the main goal of these tasks) it is needed to traverse (recursively) the tree twice - firstly to determine how many red nodes are 'under' each node in the tree; secondly to find solution (smallest difference of red nodes on both sides of concerned edge). Before traversions we can choose the root node of the tree - a node labeled 1 is appropriate for this.
 
+#### Compilation and testing
+
+`gcc main.c -o main`  
+  
+`./main < data/pub**.in`
 
 
 
